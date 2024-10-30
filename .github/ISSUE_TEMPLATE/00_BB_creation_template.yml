@@ -244,9 +244,34 @@ body:
         Example:
         | 			| **Documentation** | **Requirements** | **Coding Guidelines** | **Testing** | **Release Process** |
         | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
-        | Level		| Gold (insert urlToDoc)| No 		   | Notdefined		   | Bronze	 | Silver (insert urlToDoc) |
+        | Level		| Gold (insert urlToDoc)| No 		   | NotDefined		   | Bronze	 | Silver (insert urlToDoc) |
 
         **Please fill in the details below:**
-        Options:
-        NotDefined/No/Bronze/Silver/Gold
+
+        See Definition of Badges and their Flavors [here](https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors) 
+
+        Options: NotDefined/No/Bronze/Silver/Gold
+
+- type: dropdown
+  id: documentation
+  attributes:
+    label: Documentation Badge
+    description: Please select the corresponding Documentation Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No
+    - NotDefined
+  validations:
+    required: true
+
+- type: input
+  id: url_documentation
+  attributes:
+    label: Url to Documentation for the Documentation Badge
+    placeholder: 
+  validations:
+    required: false
 
