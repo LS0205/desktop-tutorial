@@ -240,17 +240,15 @@ body:
   id: maturity badges
   attributes:
     value: |
-        #### Maturity Badges
+        ### Maturity Badges
         Example:
         | 			| **Documentation** | **Requirements** | **Coding Guidelines** | **Testing** | **Release Process** |
         | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
         | Level		| Gold (insert urlToDoc)| No 		   | NotDefined		   | Bronze	 | Silver (insert urlToDoc) |
 
-        **Please fill in the details below:**
-
         See Definition of Badges and their Flavors [here](https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors) 
 
-        Options: NotDefined/No/Bronze/Silver/Gold
+        **Please fill in the details below:**
 
 - type: dropdown
   id: documentation
@@ -262,7 +260,7 @@ body:
     - Gold
     - Silver
     - Bronze
-    - No
+    - No Badge
     - NotDefined
   validations:
     required: true
