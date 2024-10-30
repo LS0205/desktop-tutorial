@@ -240,10 +240,13 @@ body:
   id: maturity badges
   attributes:
     value: |
-        ### Maturity Badges
+        #### Maturity Badges
         Example:
         | 			| **Documentation** | **Requirements** | **Coding Guidelines** | **Testing** | **Release Process** |
         | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
         | Level		| Gold (insert urlToDoc)| No 		   | Notdefined		   | Bronze	 | Silver (insert urlToDoc) |
 
-                **Please fill in the details below:**
+        **Please fill in the details below:**
+        Options:
+        NotDefined/No/Bronze/Silver/Gold
+
