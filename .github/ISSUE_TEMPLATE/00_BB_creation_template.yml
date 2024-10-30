@@ -239,8 +239,6 @@ body:
 - type: markdown
   id: maturity badges
   attributes:
-    label: Maturity badge
-    description: taken over from Eclipse SDV Process; See Definition of Badges and their Flavors; https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors; Options:NotDefined/No/Bronze/Silver/Gold
     value: |
         ## Bug Report
         Please provide the details below.
