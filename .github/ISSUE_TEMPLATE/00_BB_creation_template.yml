@@ -240,6 +240,7 @@ body:
   id: maturity badges
   attributes:
     value: |
+        ### Maturity Badges
         Example:
         | 			| **Documentation** | **Requirements** | **Coding Guidelines** | **Testing** | **Release Process** |
         | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
